@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="name navbar-brand">
+            <div class="logo nav-icon"><img class="image" src="images/nav-con.avif" alt=""></div>
+            <h2 class="heading">Chandrika</h2>
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </nav>
+
+
+    <!-- home section  -->
+    <main>
+        <section id="home" class="HomeSection">
+            <div class="HomeContent">
+                <div class="status">
+                    <a href="#"><span class="CurrentStatus" role="status">Available for New Opportunities</span></a>
+                </div>
+                <div class="FutureFor">
+                    <span class="CurrentFuturePlan">Building the <span class="gradient-text">Future</span>
+                        <div class="next">of the Web.</div>
+                    </span>
+                </div>
+                <div class="Intro">
+                    <span class="IM">I'm Chandrika, a Full-Stack Developer specializing in creating high-performance
+                        web applications that provide exceptional user experiences.</span>
+                </div>
+                <div class="MyWork">
+                    <button class="ViewWork"><a href="#projects">View My Work</a></button>
+                    <div class="socila-Media-container">
+                        <a href="https://github.com/chandrika-patel-9302?tab=repositories" class="social-link"><img src="images/github.avif" alt=""></a>
+                        <a href="https://www.linkedin.com/in/chandrika-patel-736a60275/" class="social-link"><img src="images/LinkedIn-Logo-2-scaled.jpg" alt=""></i></a>
+                    </div>
+                </div>
+                <div class="collage-container">
+                    <div class="collage-Text">
+                        <span class="Text-Section"><button id="toggleBtn">Show Collage Memories</button></span>
+                    </div>
+                    <div id="myContainer" class="hidden">
+                        <div class="slider-track">
+                            <img src="images/fagwa.jpg" alt="">
+                            <img src="images/balancik rock.jpg" alt="">
+                            <img src="images/groupImage.jpg" alt="">
+                            <img src="images/golgappe wala.jpg" alt="">
+                            <img src="images/2025-batch.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-section hamburger-img">
+                <div class="hero-blob"></div>
+                <img src="images/chandrika.png" alt="" class="hero-img hero-img-hamburger">
+                <div class="experience">
+                    <div class="imgae-container">
+                        <div class="experience-img">
+                            <div class="Text">
+                                <div>Experience</div>
+                                <div>5+ Years Exp</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="About" id="about">
+            <div class="about-section">
+                <div class="section-name">ABOUT ME</div>
+            </div>
+            <div class="contain-container">
+                <div class="about-know">
+                    <h2 class="field">Expert in <span class="field-deco">Web Design </span>and Development</h2>
+                    <p class="text-secondary">
+                        My journey into the world of web development started 6 years ago when I built my first basic
+                        HTML website. Since then, I've evolved into a multifaceted developer who thrives at the
+                        intersection of design and functionality.
+                    </p>
+                    <p class="text-third">
+                        I focus on writing clean, elegant code that solves complex problems while maintaining a
+                        focus on
+                        performance and scalability.
+                    </p>
+                    <div class="work-togather">
+                        <button class="together">
+                            <a href="#contact">let's work together</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-player" class="hidden">
+                    <video autoplay muted loop src="videos/collage-video.mp4" controls></video>
+                    <video autoplay muted loop src="videos/collage-dance.mp4" controls></video>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <section id="Skills" class="skills">
+            <div class="skill-heading">
+                <div class="skill-section">
+                    <h1 class="skill-primary">My Tech Stack</h1>
+                </div>
+                <div class="skill-secondry">
+                    <h4>The tools and technologies I use to bring ideas to life.</h4>
+                </div>
+            </div>
+            <div class="skills-container">
+                <div class="common-skill" id="primary-skill">
+                    <div class="skill-icon">
+                        <i class="bi bi-layout-text-window" style="font-size: 50px;"></i>
+                    </div>
+                    <div class="skill-font">Frontend</div>
+                    <div class="Lang-skills">
+                        <span class="Lang">React</span>
+                        <span class="Lang">NodeJs</span>
+                        <span class="Lang">Bootstrap</span>
+                        <span class="Lang">TypeScript</span>
+                    </div>
+                </div>
+                <div class="common-skill" id="secendry-skill">
+                    <div class="skill-icon">
+                        <i class="bi bi-cpu" style="font-size: 50px;"></i>
+                    </div>
+                    <div class="skill-font">Backend</div>
+                    <div class="Lang-skills">
+                        <span class="Lang">NodeJs</span>
+                        <span class="Lang">Express</span>
+                        <span class="Lang">MongoDB</span>
+                    </div>
+                </div>
+                <div class="common-skill" id="tersery-skill">
+                    <div class="skill-icon">
+                        <i class="bi bi-globe" style="font-size: 50px;"></i>
+                    </div>
+                    <div class="skill-font">DevOps</div>
+                    <div class="Lang-skills">
+                        <span class="Lang">Docker</span>
+                        <span class="Lang">AWS</span>
+                        <span class="Lang">CI/CD</span>
+                        <span class="Lang">Vercel</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="Projects" class="project">
+            <div class="project-heading">
+                <div class="project-heading-text">
+                    <h1>Selected Projects</h1>
+                </div>
+            </div>
+            <div class="selected-Text">
+                <div class="selected-main-text">
+                    <p>A collection of my recent works across different plateforms.</p>
+                </div>
+                <div class="project-button">
+                    <button class="selected-button">All Projects<i
+                            class="bi bi-box-arrow-up-right ms-2 small"></i></button>
+                </div>
+            </div>
+            <div class="Main-projects">
+                <!-- first project  -->
+                <div class="Project-Container">
+                    <div class="commercial">
+                        <img src="images/e-commerce.avif" alt="">
+                    </div>
+                    <div class="Application-details">
+                        <div class="Technology-use">
+                            <div class="techno">React</div>
+                            <div class="techno">Node.JS</div>
+                        </div>
+                        <div class="Commercial-Name">
+                            <h2>E-Commerce Titan</h2>
+                        </div>
+                        <div class="description">
+                            <p>A full-stack commerce solution featuring real-time inventory and Stripe integration.</p>
+                        </div>
+                        <div class="case-study">
+                            <a href="">Case Study<i class="bi bi-chevron-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- second project  -->
+                <div class="Project-Container">
+                    <div class="commercial">
+                        <img src="images/trading image.avif" alt="">
+                    </div>
+                    <div class="Application-details">
+                        <div class="Technology-use">
+                            <div class="techno">Python</div>
+                            <div class="techno">FastAPI</div>
+                        </div>
+                        <div class="Commercial-Name">
+                            <h2>AI Analytics Dashboard</h2>
+                        </div>
+                        <div class="description">
+                            <p>Data visualization platform utilizing machine learning to predict market trends.</p>
+                        </div>
+                        <div class="case-study">
+                            <a href="">Case Study<i class="bi bi-chevron-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- third project  -->
+                <div class="Project-Container">
+                    <div class="commercial">
+                        <img src="images/gellary.jpg" alt="">
+                    </div>
+                    <div class="Application-details">
+                        <div class="Technology-use">
+                            <div class="techno">next.js</div>
+                            <div class="techno">Firebase</div>
+                        </div>
+                        <div class="Commercial-Name">
+                            <h2>Social Connect</h2>
+                        </div>
+                        <div class="description">
+                            <p>A minimalist social media platform focused on privacy and decentralized storage.</p>
+                        </div>
+                        <div class="case-study">
+                            <a href="">Case Study<i class="bi bi-chevron-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contect">
+            <div class="AllContacts">
+                <div class="common-index" id="myContact">
+                    <div class="togather">
+                        <h1>Let's build something <span class="ordinary">extraordinary</span> together.</h1>
+                    </div>
+                    <div class="Open-idea">
+                        <p>Whether you have a specific project in mind or just want to chat about tech, I'm always open
+                            to
+                            new connections.</p>
+                    </div>
+                    <div class="common-details" id="email-details">
+                        <div class="common" id="email-log">
+                            <i class="bi bi-envelope-at-fill fs-4"
+                                style="font-size: 30px;color: #009cff; border: 10px solid rgb(98, 98, 98); background-color:rgb(98, 98, 98); border-radius: 5px;"></i>
+                        </div>
+                        <div class="connection" id="email-me">
+                            <p class="connection-a" class="me">Email Me</p>
+                            <p class="connection-b" class="email-id">Chandrika.Patel9302@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="common-details">
+                        <div class="number-log">
+                            <i class="bi bi-telephone-fill fs-4"
+                                style="font-size: 30px;color: #009cff; border: 10px solid rgb(98, 98, 98); background-color:rgb(98, 98, 98); border-radius: 5px;"></i>
+                        </div>
+                        <div id="call-me">
+                            <p class="connection-a">Work Inquiries</p>
+                            <p class="connection-b">9302548621</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="common-index" id="contact-page">
+                    <div class="input">
+                        <div class="input-detail" id="name-input">
+                            <div class="label"><label>Name</label></div>
+                            <input class="your-name" placeholder="Enter your Full name" type="text">
+                        </div>
+                        <div class="input-detail" id="email-input">
+                            <div class="label"><label for="email">Email</label></div>
+                            <input class="email" placeholder="Enter your Active Email" type="email">
+                        </div>
+                    </div>
+                    <div class="message-box">
+                        <div class="message-lebal"><label for="">Message</label></div>
+                        <div class="input-message">
+                            <input class="query" type="text">
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="send-message">
+                            <button>Send Message<i class="bi bi-send-fill"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-nav">
+                <a class="footer-icon" href="#home">
+                    <div class="barnd-icon"><i class="bi bi-code-slash primary-color"></i></div>
+                    <span class="icon-text">Chandrika</span>
+                </a>
+                <div class="footer-navigation">
+                    <a href="#about" class="nav-style">About</a>
+                    <a href="#Projects" class="nav-style">Work</a>
+                    <a href="#Projects" class="nav-style">Experience</a>
+                    <a href="#contact" class="nav-style">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/chandrika-patel-9302?tab=repositories" class="social-link"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/chandrika-patel-736a60275/" class="social-link"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://x.com/yash_patel9302" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p class="bottom-text">&copy; <span id="year"></span> Chandrika Patel. Built with css and
+                    Passion.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        const btn = document.getElementById('toggleBtn');
+        const container = document.getElementById('myContainer');
+
+        btn.addEventListener('click', () => {
+            container.classList.toggle('hidden');
+
+            // Optional: Change button text based on state
+            if (container.classList.contains('hidden')) {
+                btn.textContent = 'Show Collage Memories';
+            } else {
+                btn.textContent = 'Collage Memories';
+            }
+        });
+        const video = document.querySelector('video');
+
+        function stopVideo() {
+            video.pause();           // Stops the playback
+            video.currentTime = 0;   // Rewinds to the very beginning
+        }
+    </script>
+</body>
+
+</html>
